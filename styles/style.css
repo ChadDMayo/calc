@@ -1,0 +1,180 @@
+html{
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  font-family: arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#container{
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  background-color: rgb(170, 170, 170);
+  display: grid;
+  column-gap: 2px;
+  row-gap: 2px;
+  grid-template-columns: 5;
+  grid-template-rows: 5;
+}
+
+button{
+  border: none;
+  margin: auto;
+  justify-self: auto;
+  height: 100%;
+  width: 100%;
+  font-size: large;
+  background-color: lightgrey;
+}
+button:hover {
+  background-color: darkgrey;
+}
+
+#display{
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  grid-column-start: 1;
+  grid-column-end: 6;
+
+  background-color: grey;
+}
+
+#expo{
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#multiply{
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#divide{
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+#clear{
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+#back{
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+#six{
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#seven{
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#eight{
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+#nine{
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+#subtract{
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+#two{
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#three{
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#four{
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+#five{
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+#add{
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+#dec{
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#zero{
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#one{
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+#equals{
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
