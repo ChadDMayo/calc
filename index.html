@@ -7,31 +7,32 @@
     
     <title>Calculator</title>
   </head>
+
   <body>
     <div id="container">
       <div id="display"></div>
-      <button id="expo">^</button>
-      <button id="multiply">x</button>
-      <button id="divide">/</button>
-      <button id="clear">C</button>
-      <button id="back">del</button>
+      <button id="expo" onclick="addOperand('^')">^</button>
+      <button id="multiply" onclick="addOperand('*')">x</button>
+      <button id="divide" onclick="addOperand('/')">/</button>
+      <button id="clear" onclick="clearAll()">C</button>
+      <button id="back" onclick="clearChar()">del</button>
 
-      <button id="six">6</button>
-      <button id="seven">7</button>
-      <button id="eight">8</button>
-      <button id="nine">9</button>
-      <button id="subtract">-</button>
+      <button id="six" onclick="addChar('6')">6</button>
+      <button id="seven" onclick="addChar('7')">7</button>
+      <button id="eight" onclick="addChar('8')">8</button>
+      <button id="nine" onclick="addChar('9')">9</button>
+      <button id="subtract" onclick="addOperand('-')">-</button>
 
-      <button id="two">2</button>
-      <button id="three">3</button>
-      <button id="four">4</button>
-      <button id="five">5</button>
-      <button id="add">+</button>
+      <button id="two" onclick="addChar('2')">2</button>
+      <button id="three" onclick="addChar('3')">3</button>
+      <button id="four" onclick="addChar('4')">4</button>
+      <button id="five" onclick="addChar('5')">5</button>
+      <button id="add" onclick="addOperand('+')">+</button>
 
-      <button id="dec">.</button>
-      <button id="zero">0</button>
-      <button id="one">1</button>
-      <button id="equals">=</button>
+      <button id="dec" onclick="addDecimal()">.</button>
+      <button id="zero" onclick="addChar('0')">0</button>
+      <button id="one" onclick="addChar('1')">1</button>
+      <button id="equals" onclick="operate()">=</button>
 
     </div>
   </body>
